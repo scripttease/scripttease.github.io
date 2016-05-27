@@ -1,17 +1,27 @@
 ---
 layout: default
 ---
-<a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-   
-<h1>Posts</h1>
+<div class="title">
+  <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+</div>
+<div class="posts">
+  <div class="post-title">
+    <h1>Posts</h1>
+  </div>
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> <a class="post-link" href=" {{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+      <li>
+        ice
+      </li>
+      <li>
+        ice
+      </li>
+      <li>
+        baby
       </li>
     {% endfor %}
   </ul>
+</div>
