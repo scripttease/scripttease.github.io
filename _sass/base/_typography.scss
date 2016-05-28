@@ -1,3 +1,45 @@
 body {
   font-family: "Droid Serif", serif;
+  color: #797171;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.rain-image {
+  height: 300px;
+  background: url("/../images/rainbanner.png") top center no-repeat;
+}
+
+.title {
+  text-align: center;
+}
+
+.post-list a {
+  margin-left: 20px;
+}
+
+.post-list ul {
+  webkit-padding-start: 0px;
+}
+.posts {
+}
+
+.post-title {
+  text-align: center;
+  
+}
+
+.site-title {
+}
+
+a {
+  text-decoration: none;
+  color: #29C79D;  
+}
+
+.post-list li {
+  list-style: none;
 }
