@@ -10,24 +10,6 @@ layout: default
 <h2>Hi, I'm Alice...</h2>
 <p>I'm a baby dev, a code enthusiast, and a some-time unicorn. If I'm not hunched behind my laptop screen, indulging my addiction for learning new programming languages, you may find me prancing on stage, in a field or a desert and wearing sequins. </p>
 </div>
-<div class="posts">
-  <div class="post-title">
-    <h2>Posts</h2>
-  </div>
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%d %-b, %Y" }}</span> <a class="post-link" href=" {{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-{{ post.excerpt }}
-      </li>
-      <li>
-      </li>
-      <li>
-      </li>
-      <li>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
 
 </div>
+

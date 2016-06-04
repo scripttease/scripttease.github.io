@@ -1,39 +1,68 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic,600,600italic' rel='stylesheet' type='text/css'><meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>{% if page.title %}{{ page.title }} | {% endif %}Scripttease</title>
     <link rel="stylesheet" href="/main.css">
+    <link rel="icon" type="image/png" href="/icons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/icons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/icons/favicon-16x16.png" sizes="16x16">
   </head>
   <body>
 
-    <div class="banner-container">
 
-    <div class="scaling-svg-container" preserveAspectRatio="xMidYMid slice" 
-      style="width: 100%; padding-bottom: 39%; /* 100% * 310/790 */" height: 1px; overflow: visible">
-      <svg class="scaling-svg" viewBox="0 0 790 310"> 
+    <div class="entire-top">
+      <div class="side-container">
+        <div class="side-svg" preserveAspectRatio="xMinYMid meet" 
+                              style="width: 100%; padding-bottom: 300%; height: 1px; overflow: visible">
+          <svg class="raindrop-svg" viewbox="0 0 150 300">
 
-      <path class="svg-s" d="m75,75 c-29,-78 -99,27 -15,61 s-6,178 -47,62"/> 
-      <path class="svg-c" d="M160,150 c-36,-69 -104,140 1,72"/>
-      <path class="svg-r-a" d="M185,180 c-17,-65 23,-54 7,50"/>
-      <path class="svg-r-b" d="M192,230 C184,136 243,136 251,160"/>
-      <path class="svg-i" d="M267,167 c-07,-09 23,-69 7,65"/>
-      <path class="svg-dot" d="M278,135 C299,121 249,106 276,135"/>
-      <path class="svg-p-a" d="M310,180 c-17,-65 23,-59 7,110 "/>
-      <path class="svg-p-b" d="M322,155 C379,102 385,290 321,212"/>
-      <path class="svg-t" d="M405,90 c-30,157 -9,161 20,125 "/>
-      <path class="svg-t-bar" d="M373,131 l45,-12"/>
-      <path class="svg-ttwo" d="M460,94 c-40,148 -9,169 23,112 "/>
-      <path class="svg-ttwo-bar" d="M430,135 l52,-12"/>
-      <path class="svg-e" d="M510,170 l47,-20 c-36,-69 -104,140 1,72 "/>
-      <path class="svg-a" d="M577,147 c57,-53 63,145 9,72 s55,-50 39,10"/>
-      <path class="svg-stwo" d="M690,147 c-29,-21 -59,-7 -15,30 s-6,98 -27,12" />
-      <path class="svg-etwo" d="M718,172 l47,-3 c-46,-108 -100,137 -1,45" />
-    </svg>
-  </div>
+            <path class="raindrop1" d="M15,67.5 c-6,22.5 36,22.5 30,0 l-15,-30"/>
+              <a xlink:href="/about">
+                <text id="about-svg" x="40" y="67.5" fill="#820D98">About</text>
+              </a>
+            <path class="raindrop2" d="M15,157.5 c-6,22.5 36,22.5 30,0 l-15,-30"/>
+              <a xlink:href="/posts">
+                <text id="posts-svg" x="40" y="157.5" fill="#820D98">Posts</text>
+              </a>
+            <path class="raindrop3" d="M15,247.5 c-6,22.5 36,22.5 30,0 l-15,-30"/>
+              <a xlink:href="/projects">
+                <text id="projects-svg" x="40" y="247.5" fill="#820D98">Projects</text>
+              </a>
+          </svg>
+        </div>
+      </div>
+
+      <div class="banner-container">
+        <div class="scaling-svg-container" preserveAspectRatio="xMidYMid slice" 
+                                           style="width: 100%; padding-bottom: 39%; /* 100% * 310/790 */ height: 1px; overflow: visible">
+
+          <a href="/">
+            <svg class="scaling-svg" viewBox="0 0 790 310">
+
+              <path class="svg-s" d="m75,75 c-29,-78 -99,27 -15,61 s-6,178 -47,62"/> 
+              <path class="svg-c" d="M160,150 c-36,-69 -104,140 1,72"/>
+              <path class="svg-r-a" d="M185,180 c-17,-65 23,-54 7,50"/>
+              <path class="svg-r-b" d="M192,230 C184,136 243,136 251,160"/>
+              <path class="svg-i" d="M267,167 c-07,-09 23,-69 7,65"/>
+              <path class="svg-dot" d="M278,135 C299,121 249,106 276,135"/>
+              <path class="svg-p-a" d="M310,180 c-17,-65 23,-59 7,110 "/>
+              <path class="svg-p-b" d="M322,155 C379,102 385,290 321,212"/>
+              <path class="svg-t" d="M405,90 c-30,157 -9,161 20,125 "/>
+              <path class="svg-t-bar" d="M373,131 l45,-12"/>
+              <path class="svg-ttwo" d="M460,94 c-40,148 -9,169 23,112 "/>
+              <path class="svg-ttwo-bar" d="M430,135 l52,-12"/>
+              <path class="svg-e" d="M510,170 l47,-20 c-36,-69 -104,140 1,72 "/>
+              <path class="svg-a" d="M577,147 c57,-53 63,145 9,72 s55,-50 39,10"/>
+              <path class="svg-stwo" d="M690,147 c-29,-21 -59,-7 -15,30 s-6,98 -27,12" />
+              <path class="svg-etwo" d="M718,172 l47,-3 c-46,-108 -100,137 -1,45" />
+            </svg>
+          </a>
+
+        </div>
+      </div>
     </div>
-
     <div>
       {{content}}
     </div>

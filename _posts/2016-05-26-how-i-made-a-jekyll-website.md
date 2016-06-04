@@ -3,8 +3,6 @@ layout: post
 title: How I Made a Jekyll Website 
 ---
 
-### Stuff and Things
-
 This is my workflow: I google what I want to do and read edifying, educational, confusing and conflicting advice from the interweb for at least an hour[^hour] before I start doing an actual thing. This post pretty much follows my exact workflow with the *entirely* useless cul-de-sacs avoided, but if I say for example, "read this" I do not mean "read then follow instructions on the page" I mean one-of-the-things-I-did-was-read-this. There, that muddies the waters sufficiently. Onwards.
 
 - [Read this](https://jekyllrb.com/docs/quickstart/)

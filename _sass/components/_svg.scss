@@ -1,3 +1,35 @@
+.entire-top {
+  width: 100%;
+  margin: auto;
+}
+
+.side-container {
+  width: 12%;
+  padding-right: 7%;
+  margin: auto;
+  float:  right;
+}
+
+.side-svg {
+ width: 100%; 
+ height: 0; 
+ padding: 0; /*reset*/
+ padding-bottom: 300%; 
+ vertical-align: middle;
+}
+
+.raindrop1 {
+  fill: #FC8081;
+}
+
+.raindrop2 {
+  fill: #F2BC5D;
+}
+
+.raindrop3 {
+  fill: #80C480;
+}
+
 .banner-container {
   width: 60%;
   margin: auto;
@@ -16,7 +48,7 @@
 
 .svg-s {
   fill: none;
-  stroke: #000;
+  stroke: #370F38;
   stroke-width: 0;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -28,7 +60,7 @@
 
 .svg-c {
   fill: none;
-  stroke: #000;
+  stroke: #370F38;
   stroke-width: 0;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -43,7 +75,7 @@
 
 .svg-r-a {
   fill: none;
-  stroke: #000;
+  stroke: #370F38;
   stroke-width: 0;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -58,7 +90,7 @@
 
 .svg-r-b {
   fill: none;
-  stroke: #000;
+  stroke: #370F38;
   stroke-width: 0;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -73,7 +105,7 @@
 
 .svg-i {
   fill: none;
-  stroke: #000;
+  stroke: #370F38;
   stroke-width: 0;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -88,7 +120,7 @@
 
 .svg-dot {
   fill: none;
-  stroke: #000;
+  stroke: #370F38;
   stroke-width: 0;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -103,7 +135,7 @@
 
 .svg-p-a {
   fill: none;
-  stroke: #000;
+  stroke: #370F38;
   stroke-width: 0;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -118,7 +150,7 @@
 
 .svg-p-b {
   fill: none;
-  stroke: #000;
+  stroke: #370F38;
   stroke-width: 0;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -133,7 +165,7 @@
 
 .svg-t {
   fill: none;
-  stroke: #000;
+  stroke: #370F38;
   stroke-width: 0;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -148,7 +180,7 @@
 
 .svg-t-bar {
   fill: none;
-  stroke: #000;
+  stroke: #370F38;
   stroke-width: 0;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -163,7 +195,7 @@
 
 .svg-ttwo {
   fill: none;
-  stroke: #000;
+  stroke: #370F38;
   stroke-width: 0;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -178,7 +210,7 @@
 
 .svg-ttwo-bar {
   fill: none;
-  stroke: #000;
+  stroke: #370F38;
   stroke-width: 0;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -192,7 +224,7 @@
 }
 .svg-e {
   fill: none;
-  stroke: #000;
+  stroke: #370F38;
   stroke-width: 0;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -208,7 +240,7 @@
 .svg-a {
   fill: none;
   opacity: 1;
-  stroke: #000;
+  stroke: #370F38;
   stroke-width: 0;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -224,7 +256,7 @@
 .svg-stwo {
   fill: none;
   opacity: 1;
-  stroke: #000;
+  stroke: #370F38;
   stroke-width: 0;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -240,7 +272,7 @@
 .svg-etwo {
   fill: none;
   opacity: 1;
-  stroke: #000;
+  stroke: #370F38;
   stroke-width: 0;
   stroke-linecap: round;
   stroke-linejoin: round;
