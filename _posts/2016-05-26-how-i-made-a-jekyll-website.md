@@ -18,14 +18,14 @@ python --version
 node --version
 ```
 
-Use 
+If any installed version is too old, use: 
 
 ```
 sudo apt-get update
 sudo apt-get upgrade
 ```
 
-To check computer for suitably up-to-date versions or
+To get your versions suitably up-to-date, or
 
 ```
 sudo apt-get install

@@ -36,9 +36,9 @@
 }
 
 .scaling-svg-container {
- background: url("/../images/rainbanner.png") top center no-repeat;
+ // background: url("/../images/rainbanner.png") top center no-repeat;
  width: 100%; 
- background-size: cover;
+ // background-size: cover;
  height: 0; 
  padding: 0; /*reset*/
  padding-bottom: 56%; 
@@ -295,3 +295,21 @@
   }
 }
 
+.raindrop-path {
+  opacity: 0;
+  animation-name: fade;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
