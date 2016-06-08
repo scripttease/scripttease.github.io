@@ -54,8 +54,11 @@
   stroke-linejoin: round;
   stroke-dasharray: 367.54;
   stroke-dashoffset: 367.54;
-  animation: 
-  dash 0.75s linear forwards;
+  animation-name: dash; 
+  animation-duration: 0.6s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1.5s;
 }
 
 .svg-c {
@@ -67,10 +70,10 @@
   stroke-dasharray: 187.79;
   stroke-dashoffset: 187.79;
   animation-name: dash; 
-  animation-duration: 0.75s;
+  animation-duration: 0.45s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-  animation-delay: 0.75s;
+  animation-delay: 1.95s;
 }
 
 .svg-r-a {
@@ -82,10 +85,10 @@
   stroke-dasharray: 136.16;
   stroke-dashoffset: 136.16;
   animation-name: dash; 
-  animation-duration: 0.375s;
+  animation-duration: 0.225s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-  animation-delay: 1.5s;
+  animation-delay: 2.175s;
 }
 
 .svg-r-b {
@@ -97,10 +100,10 @@
   stroke-dasharray: 128.58;
   stroke-dashoffset: 128.58;
   animation-name: dash; 
-  animation-duration: 0.375s;
+  animation-duration: 0.225s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-  animation-delay: 1.875s;
+  animation-delay: 2.4s;
 }
 
 .svg-i {
@@ -112,10 +115,10 @@
   stroke-dasharray: 111.98;
   stroke-dashoffset: 111.98;
   animation-name: dash; 
-  animation-duration: 0.375s;
+  animation-duration: 0.225s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-  animation-delay: 2.25s;
+  animation-delay: 2.625s;
 }
 
 .svg-dot {
@@ -127,10 +130,10 @@
   stroke-dasharray: 47.31;
   stroke-dashoffset: 47.31;
   animation-name: dash; 
-  animation-duration: 0.375s;
+  animation-duration: 0.225;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-  animation-delay: 2.625s;
+  animation-delay: 2.55s;
 }
 
 .svg-p-a {
@@ -142,10 +145,10 @@
   stroke-dasharray: 190.8;
   stroke-dashoffset: 190.8;
   animation-name: dash; 
-  animation-duration: 0.375s;
+  animation-duration: 0.225s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-  animation-delay: 3s;
+  animation-delay: 2.775s;
 }
 
 .svg-p-b {
@@ -157,10 +160,10 @@
   stroke-dasharray: 161.9;
   stroke-dashoffset: 161.9;
   animation-name: dash; 
-  animation-duration: 0.375s;
+  animation-duration: 0.225s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-  animation-delay: 3.375s;
+  animation-delay: 3.0s;
 }
 
 .svg-t {
@@ -172,10 +175,10 @@
   stroke-dasharray: 180.05;
   stroke-dashoffset: 180.05;
   animation-name: dash; 
-  animation-duration: 0.5s;
+  animation-duration: 0.30s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-  animation-delay: 3.75s;
+  animation-delay: 3.3s;
 }
 
 .svg-t-bar {
@@ -187,10 +190,10 @@
   stroke-dasharray: 46.58;
   stroke-dashoffset: 46.58;
   animation-name: dash; 
-  animation-duration: 0.25s;
+  animation-duration: 0.15s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-  animation-delay: 4.125s;
+  animation-delay: 3.55s;
 }
 
 .svg-ttwo {
@@ -202,10 +205,10 @@
   stroke-dasharray: 191.16;
   stroke-dashoffset: 191.16;
   animation-name: dash; 
-  animation-duration: 0.5s;
+  animation-duration: 0.35s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-  animation-delay: 4.375s;
+  animation-delay: 3.8s;
 }
 
 .svg-ttwo-bar {
@@ -217,10 +220,10 @@
   stroke-dasharray: 53.37;
   stroke-dashoffset: 53.37;
   animation-name: dash; 
-  animation-duration: 0.25s;
+  animation-duration: 0.15s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-  animation-delay: 4.875s;
+  animation-delay: 4.05s;
 }
 .svg-e {
   fill: none;
@@ -231,10 +234,10 @@
   stroke-dasharray: 238.86;
   stroke-dashoffset: 238.86;
   animation-name: dash; 
-  animation-duration: 0.75s;
+  animation-duration: 0.45s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-  animation-delay: 5.125s;
+  animation-delay: 4.5s;
 }
 
 .svg-a {
@@ -247,10 +250,10 @@
   stroke-dasharray: 301.2324;
   stroke-dashoffset: 301.2324;
   animation-name: dash; 
-  animation-duration: 0.75s;
+  animation-duration: 0.45s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-  animation-delay: 5.875s;
+  animation-delay: 4.95s;
 }
 
 .svg-stwo {
@@ -263,10 +266,10 @@
   stroke-dasharray: 208.03;
   stroke-dashoffset: 208.03;
   animation-name: dash; 
-  animation-duration: 0.75s;
+  animation-duration: 0.45s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-  animation-delay: 6.625s;
+  animation-delay: 5.4s;
 }
 
 .svg-etwo {
@@ -279,10 +282,10 @@
   stroke-dasharray: 246.35;
   stroke-dashoffset: 246.35;
   animation-name: dash; 
-  animation-duration: 0.75s;
+  animation-duration: 0.45s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-  animation-delay: 7.375s;
+  animation-delay: 5.85s;
 }
 
 @keyframes dash {
