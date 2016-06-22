@@ -1,0 +1,12 @@
+---
+layout: post
+title: Here's my Async Function, So Callback Maybe
+---
+
+## Changing the World with Javascript Node.js  Callbacks
+
+I like functional programming, so I don't love mutable states. But if you want to use async functions with Node.js, you have to use callbacks and *that* means changing the world... Or at least mutating state.
+
+It took me a miserably long time to understand callbacks so I'm going to explain how I got there.
+
+
